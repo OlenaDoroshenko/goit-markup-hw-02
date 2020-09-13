@@ -1,0 +1,214 @@
+:root {
+  --primary-font: "Roboto", san-serif;
+  --secondary-font: "Raleway", san-serif;
+  --primary-font-color: #757575;
+  --secondary-font-color: #212121;
+  --accent-font-color: #2196f3;
+  --second-accent-font-color: #ffffff;
+}
+
+body {
+  font-family: var(--primary-font);
+  font-style: normal;
+}
+
+.list {
+  list-style: none;
+}
+
+.link {
+  text-decoration: none;
+}
+
+/* ====COMPONENTS==== */
+.logo {
+  font-family: var(--secondary-font);
+  font-weight: 700;
+  font-size: 26px;
+  line-height: 1.192;
+  letter-spacing: 0.03em;
+}
+
+.logo-web {
+  color: var(--accent-font-color);
+}
+
+.logo-studio {
+  color: #000000;
+}
+
+.titles {
+  font-weight: 700;
+  font-size: 36px;
+  line-height: 1.167;
+  text-align: center;
+  letter-spacing: 0.03em;
+  color: var(--secondary-font-color);
+}
+/* ====END COMPONENTS==== */
+
+/* ====HEADER==== */
+.navigation-list-link {
+  font-family: var(--primary-font);
+  font-weight: 500;
+  font-size: 14px;
+  line-height: 1.143;
+  letter-spacing: 0.02em;
+  color: var(--secondary-font);
+}
+
+.current-page {
+  color: var(--accent-font-color);
+}
+
+.address-list-link {
+  font-style: normal;
+  font-weight: 500;
+  font-size: 14px;
+  line-height: 1.143;
+  letter-spacing: 0.02em;
+
+  color: var(--primary-font-color);
+}
+.navigation-list-link:hover,
+.navigation-list-link:focus,
+.address-list-link:hover,
+.address-list-link:focus {
+  color: var(--accent-font-color);
+}
+
+.logo:focus {
+}
+
+/* ====END HEADER==== */
+
+/* ====HEROE==== */
+.heroe-title {
+  font-weight: 900;
+  font-size: 44px;
+  line-height: 1.364;
+  text-align: center;
+  letter-spacing: 0.06em;
+  text-transform: uppercase;
+  color: var(--second-accent-font-color);
+  background-color: tomato;
+}
+
+.button {
+  font-family: Roboto;
+  font-style: normal;
+  font-weight: 700;
+  font-size: 16px;
+  line-height: 1.875;
+  text-align: center;
+  letter-spacing: 0.06em;
+  color: var(--second-accent-font-color);
+}
+
+.button:focus {
+}
+/* ====END HEROE==== */
+
+/* ====ADVANTAGES==== */
+.advantages-list-subtitle {
+  font-weight: 700;
+  font-size: 14px;
+  line-height: 1.143;
+  letter-spacing: 0.03em;
+  text-transform: uppercase;
+  color: var(--secondary-font-color);
+}
+
+.advantages-list-description {
+  font-weight: 400;
+  font-size: 14px;
+  line-height: 1.714;
+  letter-spacing: 0.03em;
+  color: var(--primary-font-color);
+}
+/* ====END ADVANTAGES==== */
+
+/* ====SERVICES==== */
+/* ====END SERVICES==== */
+
+/* ====TEAM==== */
+.team-list-name {
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 1.188;
+  text-align: center;
+  letter-spacing: 0.03em;
+  color: var(--secondary-font-color);
+}
+
+.team-list-position {
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 1.188;
+  text-align: center;
+  letter-spacing: 0.03em;
+  color: var(--primary-font-color);
+}
+/* ====END TEAM==== */
+/* ====FOOTER==== */
+.footer-list-street {
+  font-style: normal;
+  font-weight: 400;
+  font-size: 14px;
+  line-height: 1.714;
+  letter-spacing: 0.03em;
+
+  color: var(--second-accent-font-color);
+  background-color: tomato;
+}
+.footer-list-link {
+  font-style: normal;
+  font-weight: 400;
+  font-size: 14px;
+  line-height: 1.714;
+  letter-spacing: 0.03em;
+
+  color: rgba(255, 255, 255, 0.6);
+  background-color: tomato;
+}
+.footer-list-street:focus,
+.footer-list-link:focus {
+}
+/* ====END FOOTER==== */
+
+/* ====PORTFOLIO==== */
+.portfolio-btn {
+  font-family: var(--primary-font);
+  font-style: normal;
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 1.625;
+  text-align: center;
+  letter-spacing: 0.03em;
+
+  color: var(--secondary-font-color);
+}
+
+.portfolio-btn:hover,
+.portfolio-btn:focus {
+  color: var(--second-accent-font-color);
+}
+
+.portfolio-examples-name {
+  font-weight: 700;
+  font-size: 18px;
+  line-height: 2;
+  letter-spacing: 0.06em;
+
+  color: var(--secondary-font-color);
+}
+
+.portfolio-examples-description {
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 1.875;
+  letter-spacing: 0.03em;
+
+  color: var(--primary-font-color);
+}
+/* ====END PORTFOLIO==== */
